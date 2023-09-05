@@ -4,4 +4,4 @@ const add= (a,b)=>{
 
 // console.log(add(1,2))
 // module.exports = add;
-export default add;
+module.exports.add = add;
