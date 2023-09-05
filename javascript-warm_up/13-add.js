@@ -1,5 +1,6 @@
-export function add(a,b){
+const add (a,b)=>{
     return (a+b)
 }
 
 // console.log(add(1,2))
+module.exports= add;
