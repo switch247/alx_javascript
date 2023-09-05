@@ -1,7 +1,7 @@
 function addMeMaybe(number,func){
     func(++number)
 }
-// var x  =4
+// let x  =4
 // addMeMaybe(x,  (x)=> {
 //     console.log('New value: ' + x);
 //   }
