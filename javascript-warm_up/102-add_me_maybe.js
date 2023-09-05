@@ -1,6 +1,5 @@
 function addMeMaybe(number,func){
-    number+=1
-    func(number)
+    func(++number)
 }
 // var x  =4
 // addMeMaybe(x,  (x)=> {
