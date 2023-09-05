@@ -6,6 +6,11 @@ class Square extends square {
     // Call the constructor of the Rectangle class using super()
     super(size);
   }
+  charPrint(c) {
+    if (c) {
+      this.print(c, c);
+    }
+  }
 }
 
 module.exports = Square;
