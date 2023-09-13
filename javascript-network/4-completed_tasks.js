@@ -22,10 +22,10 @@ request(url, (error, response, body) => {
 
 
 function countElements(list) {
-    var counter = {};
+    let counter = {};
     
-    for (var i = 0; i < list.length; i++) {
-      var element = list[i];
+    for (let i = 0; i < list.length; i++) {
+        let element = list[i];
       
       if (counter[element]) {
         counter[element]++;
