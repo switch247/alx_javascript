@@ -16,7 +16,7 @@ request(url, (error, response, body) => {
       if (err) {
         console.error('Error writing file:', err);
       } else {
-        console.log('File saved successfully!');
+        // console.log('File saved successfully!');
       }
     });
   }
